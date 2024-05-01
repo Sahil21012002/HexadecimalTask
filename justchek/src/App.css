@@ -1,0 +1,35 @@
+.table th{
+   background-color: skyblue;
+}
+.table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table td , .table th{
+    border:1px solid black
+}
+.table tr:nth-child(odd){
+    background-color: rgb(235, 228, 228);
+}
+h3{
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: #f1efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  input{
+    display: grid;
+    width: 100%;
+    margin-bottom: 25px;
+}
+input :hover{
+    border: 3px solid rgb(1, 144, 232);
+}
